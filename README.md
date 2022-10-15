@@ -80,7 +80,7 @@ while True:
     print("===========================\n")
 ```
 
-## Samples results:
+### Sample results:
 ```text
 Text here: 	Gathering this information may reveal opportunities for other forms of <mask>, establishing operational resources, or initial access.
 SecureBERT: 
