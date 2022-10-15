@@ -39,6 +39,12 @@ SecureBERT has been train on MLM task. Use the code below to predict the masked 
 #!pip install tokenizers
 
 import torch
+import transformers
+from transformers import RobertaTokenizer, RobertaTokenizerFast
+
+tokenizer = RobertaTokenizerFast.from_pretrained("ehsanaghaei/SecureBERT")
+model = transformers.RobertaForMaskedLM.from_pretrained("ehsanaghaei/SecureBERT")
+
 def predict_mask(sent, tokenizer, model, topk =10, print_results = True):
     token_ids = tokenizer.encode(sent, return_tensors='pt')
     masked_position = (token_ids.squeeze() == tokenizer.mask_token_id).nonzero()
@@ -66,14 +72,6 @@ def predict_mask(sent, tokenizer, model, topk =10, print_results = True):
     return words
 
 
-import transformers
-from transformers import RobertaTokenizer, RobertaTokenizerFast
-
-tokenizer = RobertaTokenizerFast.from_pretrained("ehsanaghaei/SecureBERT")
-model = transformers.RobertaForMaskedLM.from_pretrained("ehsanaghaei/SecureBERT")
-
-
-import torch
 while True:
     sent = input("Text here: \t")
     print("SecureBERT: ")
