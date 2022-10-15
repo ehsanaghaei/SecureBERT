@@ -31,7 +31,7 @@ git clone https://huggingface.co/ehsanaghaei/SecureBERT
 GIT_LFS_SKIP_SMUDGE=1
 ```
 ---
-SecureBERT has been train on MLM task. Use comment below to predict the masked word in the given sentences
+SecureBERT has been train on MLM task. Use the code below to predict the masked word in the given sentences:
 
 ```python
 from transformers import RobertaTokenizer, RobertaForMaskedLM
