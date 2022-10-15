@@ -40,7 +40,7 @@ import torch
 tokenizer = RobertaTokenizer.from_pretrained("ehsanaghaei/SecureBERT")
 model = RobertaForMaskedLM.from_pretrained("ehsanaghaei/SecureBERT")
 
-inputs = tokenizer("The capital of France is <mask>.", return_tensors="pt")
+inputs = tokenizer("Virus causes <mask>.", return_tensors="pt")
 
 with torch.no_grad():
     logits = model(**inputs).logits
