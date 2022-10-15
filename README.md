@@ -34,10 +34,11 @@ GIT_LFS_SKIP_SMUDGE=1
 SecureBERT has been train on MLM task. Use the code below to predict the masked word in the given sentences:
 
 ```python
-!pip install transformers
-!pip install torch
-!pip install tokenizers
+#!pip install transformers
+#!pip install torch
+#!pip install tokenizers
 
+import torch
 def predict_mask(sent, tokenizer, model, topk =10, print_results = True):
     token_ids = tokenizer.encode(sent, return_tensors='pt')
     masked_position = (token_ids.squeeze() == tokenizer.mask_token_id).nonzero()
