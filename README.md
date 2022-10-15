@@ -80,6 +80,53 @@ while True:
      
     print("===========================\n")
 ```
+
+##Samples results:
+```text
+Text here: 	Gathering this information may reveal opportunities for other forms of <mask>, establishing operational resources, or initial access.
+SecureBERT: 
+Mask  Predictions :  ['reconnaissance', 'exploitation', 'attack', 'compromise', 'phishing', 'enumeration', 'attacks', 'penetration', 'espionage', 'intrusion']
+===========================
+
+Text here: 	Information about identities may include a variety of details, including personal data as well as <mask> details such as credentials.
+SecureBERT: 
+Mask  Predictions :  ['authentication', 'sensitive', 'system', 'credential', 'other', 'additional', 'security', 'technical', 'account', 'secret']
+===========================
+
+Text here: 	Adversaries may also compromise sites then include <mask> content designed to collect website authentication cookies from visitors.
+SecureBERT: 
+Mask  Predictions :  ['malicious', 'JavaScript', 'phishing', 'iframe', 'dynamic', 'additional', 'downloadable', 'hostile', 'embedded', 'website']
+===========================
+
+Text here: 	Adversaries may also compromise sites then include malicious content designed to collect website authentication <mask> from visitors.
+SecureBERT: 
+Mask  Predictions :  ['credentials', 'information', 'data', 'tokens', 'details', 'cookies', 'parameters', 'codes', 'secrets', 'keys']
+===========================
+
+Text here: 	The given website may closely resemble a <mask> site in appearance and have a URL containing elements from the real site.
+SecureBERT: 
+Mask  Predictions :  ['real', 'legitimate', 'trusted', 'fake', 'genuine', 'live', 'phishing', 'similar', 'known', 'different']
+===========================
+
+Text here: 	Although sensitive details may be redacted, this information may contain trends regarding <mask> such as target industries, attribution claims, and successful countermeasures.
+SecureBERT: 
+Mask  Predictions :  ['events', 'indicators', 'activities', 'topics', 'activity', 'trends', 'factors', 'incidents', 'information', 'campaigns']
+===========================
+
+Text here: 	Adversaries may search digital <mask> data to gather actionable information.
+SecureBERT: 
+Mask  Predictions :  ['forensic', 'media', 'forensics', 'asset', 'image', 'security', 'form', 'identity', 'store', 'document']
+===========================
+
+Text here: 	Once credentials are obtained, they can be used to perform <mask> movement and access restricted information.
+SecureBERT: 
+Mask  Predictions :  ['lateral', 'laterally', 'Lateral', 'data', 'credential', 'horizontal', 'illegal', 'money', 'physical', 'unauthorized']
+===========================
+
+Text here: 	One example of this is MS14-068, which targets <mask> and can be used to forge Kerberos tickets using domain user permissions.
+SecureBERT: 
+Mask  Predictions :  ['Kerberos', 'authentication', 'users', 'Windows', 'administrators', 'LDAP', 'PAM', 'Samba', 'NTLM', 'AD']
+```
 ---
 * This repo will be updated on a regular basis.
 
