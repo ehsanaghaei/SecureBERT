@@ -1,6 +1,8 @@
 # SecureBERT
 
-[SecureBERT](https://arxiv.org/pdf/2204.02685) is a domain-specific language model to represent cybersecurity textual data.
+[SecureBERT](https://arxiv.org/pdf/2204.02685) is a domain-specific language model to represent cybersecurity textual data which is trained on a large amount of in-domain text crawled from the online resources.
+
+![image](https://user-images.githubusercontent.com/46252665/195998237-9bbed621-8002-4287-ac0d-19c4f603d919.png)
 
 ---
 
@@ -129,6 +131,8 @@ Mask  Predictions :  ['Kerberos', 'authentication', 'users', 'Windows', 'adminis
 ---
 
 ![mlm_example](https://user-images.githubusercontent.com/46252665/195998153-f5682f7c-60a8-486d-b2c1-9ef5732c24ba.png)
+
+SecureBERT outperforms the existing models in MLM testing conducted on a manually crafted dataset from the human readable descriptions of MITRE ATT&CK techniques and tactics.
 
 * This repo will be updated on a regular basis.
 
