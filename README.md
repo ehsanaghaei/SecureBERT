@@ -4,6 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/46252665/195998237-9bbed621-8002-4287-ac0d-19c4f603d919.png)
 
+SecureBERT can be used as the core model for any downstream task.
 ---
 
 # How to use SecureBERT
