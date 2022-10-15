@@ -134,6 +134,11 @@ Mask  Predictions :  ['Kerberos', 'authentication', 'users', 'Windows', 'adminis
 
 SecureBERT outperforms the existing models in MLM testing conducted on a manually crafted dataset from the human readable descriptions of MITRE ATT&CK techniques and tactics.
 
+![image](https://user-images.githubusercontent.com/46252665/195998409-1e175f94-c35e-4682-9bf4-f6bc5c5d1627.png)
+
+![image](https://user-images.githubusercontent.com/46252665/195998407-88a8b61e-a3dd-4196-be1e-9af6c0f647f6.png)
+
+
 * This repo will be updated on a regular basis.
 
 ***
