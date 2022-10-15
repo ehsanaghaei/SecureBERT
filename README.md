@@ -5,7 +5,7 @@
 ---
 
 # How to use SecureBERT
-SecureBERT has been uploaded to [Huggingface](https://huggingface.co/ehsanaghaei/SecureBERT) framework, You may 
+SecureBERT has been uploaded to [Huggingface](https://huggingface.co/ehsanaghaei/SecureBERT) framework, You may use the code below
 
 ```python
 from transformers import RobertaTokenizer, RobertaModel
