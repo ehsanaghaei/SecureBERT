@@ -124,9 +124,9 @@ SecureBERT:
 Mask  Predictions :  ['lateral', 'laterally', 'Lateral', 'data', 'credential', 'horizontal', 'illegal', 'money', 'physical', 'unauthorized']
 ===========================
 
-Text here: 	One example of this is MS14-068, which targets <mask> and can be used to forge Kerberos tickets using domain user permissions.
+Text here: 	One example of this is MS14-068, which targets <mask> and can be used to forge its tickets.
 SecureBERT: 
-Mask  Predictions :  ['Kerberos', 'authentication', 'users', 'Windows', 'administrators', 'LDAP', 'PAM', 'Samba', 'NTLM', 'AD']
+Mask  Predictions :  ['Kerberos', 'tickets', 'RSA', 'KDC', 'LDAP']
 ```
 ---
 
