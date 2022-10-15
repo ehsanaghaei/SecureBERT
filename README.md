@@ -14,7 +14,7 @@ import torch
 tokenizer = RobertaTokenizer.from_pretrained("ehsanaghaei/SecureBERT")
 model = RobertaModel.from_pretrained("ehsanaghaei/SecureBERT")
 
-inputs = tokenizer("Cybersecurity is mandatory!", return_tensors="pt")
+inputs = tokenizer("This is SecureBERT!", return_tensors="pt")
 outputs = model(**inputs)
 
 last_hidden_states = outputs.last_hidden_state
