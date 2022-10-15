@@ -127,6 +127,9 @@ SecureBERT:
 Mask  Predictions :  ['Kerberos', 'authentication', 'users', 'Windows', 'administrators', 'LDAP', 'PAM', 'Samba', 'NTLM', 'AD']
 ```
 ---
+
+![mlm_example](https://user-images.githubusercontent.com/46252665/195998153-f5682f7c-60a8-486d-b2c1-9ef5732c24ba.png)
+
 * This repo will be updated on a regular basis.
 
 ***
