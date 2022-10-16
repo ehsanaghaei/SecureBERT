@@ -34,6 +34,7 @@ git clone https://huggingface.co/ehsanaghaei/SecureBERT
 GIT_LFS_SKIP_SMUDGE=1
 ```
 ---
+## Fill Mask
 SecureBERT has been trained on MLM. Use the code below to predict the masked word within the given sentences:
 
 ```python
