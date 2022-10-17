@@ -142,7 +142,8 @@ SecureBERT outperforms the existing models in MLM testing conducted on a manuall
 
 
 * This repo will be updated on a regular basis.
-SecureBERT is DIFFERENT than [SecBERT](https://huggingface.co/jackaduma/SecRoBERTa?text=Email+protocol+is+called+%3Cmask%3E.). 
+
+* SecureBERT is DIFFERENT than [SecBERT](https://huggingface.co/jackaduma/SecRoBERTa?text=Email+protocol+is+called+%3Cmask%3E.). 
 ***
 # References
 https://arxiv.org/pdf/2204.02685
