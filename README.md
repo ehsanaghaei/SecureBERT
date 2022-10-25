@@ -4,7 +4,9 @@
 
 ![image](https://user-images.githubusercontent.com/46252665/195998237-9bbed621-8002-4287-ac0d-19c4f603d919.png)
 
-SecureBERT can be used as the core model for any downstream task.
+## SecureBERT can be used as the core model for any downstream task.
+* SecureBERT has demonstrated a significantly higher performance in predicting masked words within the text when compared to existing models like RoBERTa (base and large), SciBERT, and SecBERT.
+
 ---
 
 # How to use SecureBERT
