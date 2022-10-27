@@ -147,6 +147,65 @@ SecureBERT outperforms the existing models in MLM testing conducted on a manuall
 * This repo will be updated on a regular basis.
 
 * SecureBERT is DIFFERENT than [SecBERT](https://huggingface.co/jackaduma/SecRoBERTa?text=Email+protocol+is+called+%3Cmask%3E.). 
+```
+Sample Text: 	Adversaries may also compromise sites then include <mask> content designed to collect website authentication cookies from visitors.
+>> SecureBERT: 
+malicious |	JavaScript |	phishing |	iframe |	dynamic |	additional |	downloadable |	hostile |	embedded |	website
+
+
+>> SecBERT: 
+web |	exploit |	simple |	a |	social |	clipboard |	shared |	native |	malicious |	business
+
+-------------------------------------------
+
+Sample Text: 	One example of this is MS14-068, which targets <mask> and can be used to forge Kerberos tickets using domain user permissions.
+>> SecureBERT: 
+Kerberos |	authentication |	users |	Windows |	administrators |	LDAP |	PAM |	Samba |	NTLM |	AD
+
+
+>> SecBERT: 
+businesses |	passwords |	differ |	system |	code |	software |	sensitive |	known |	MySQL |	misconfigurations
+
+-------------------------------------------
+
+Sample Text: 	Paris is the <mask> of France.
+>> SecureBERT: 
+capital |	Republic |	Government |	province |	name |	city |	government |	language |	Capital |	Bank
+
+
+>> SecBERT: 
+case |	course |	leader |	peak |	Ell |	Embassy |	trademark |	Republic |	Dictionary |	ministry
+
+-------------------------------------------
+
+Sample Text: 	Virus causes <mask>.
+>> SecureBERT: 
+DoS |	crash |	reboot |	reboots |	panic |	crashes |	corruption |	DOS |	vulnerability |	XSS
+
+
+>> SecBERT: 
+disabled |	invisible |	vulnerabilities |	advanced |	before |	left |	too |	vector |	obviously |	vulnerable
+
+-------------------------------------------
+
+Sample Text: 	Sending huge amount of packets through network leads to <mask>.
+>> SecureBERT: 
+DoS |	congestion |	crashes |	crash |	problems |	DOS |	vulnerability |	failure |	vulnerabilities |	errors
+
+
+>> SecBERT: 
+monitoring |	pipes |	situations |	default |	minutes |	login |	workstations |	services |	printers |	etc
+
+-------------------------------------------
+
+Sample Text: 	A <mask> injection occurs when an attacker inserts malicious code into a server
+>> SecureBERT: 
+code |	SQL |	command |	malicious |	script |	web |	vulnerability |	server |	ql |	SQL
+
+
+>> SecBERT: 
+frame |	keystroke |	packet |	massive |	mass |	URL |	vector |	COM |	window |	Distributed
+```
 ***
 # References
 https://arxiv.org/pdf/2204.02685
