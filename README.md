@@ -1,12 +1,14 @@
 # SecureBERT
 
-[SecureBERT](https://arxiv.org/pdf/2204.02685) is a domain-specific language model to represent cybersecurity textual data which is trained on a large amount of in-domain text crawled from the online resources. ***See the presentation on [YouTube](https://www.youtube.com/watch?v=G8WzvThGG8c&t=8s)***
-
+[SecureBERT](https://arxiv.org/pdf/2204.02685) is a domain-specific language model to represent cybersecurity textual data which is trained on a large amount of in-domain text crawled from online resources. 
 ![image](https://user-images.githubusercontent.com/46252665/195998237-9bbed621-8002-4287-ac0d-19c4f603d919.png)
 
-## SecureBERT can be used as the base model for any downstream task including text classifcation, NER, Seq-to-Seq, QA, etc.
-* SecureBERT has demonstrated a significantly higher performance in predicting masked words within the text when compared to existing models like RoBERTa (base and large), SciBERT, and SecBERT.
-* SecureBERT has alos demonstrated a promissing performance in preserving general English language understanding (representation).
+***See the presentation on [YouTube](https://www.youtube.com/watch?v=G8WzvThGG8c&t=8s)***
+
+
+## SecureBERT can be used as the base model for any downstream task including text classification, NER, Seq-to-Seq, QA, etc.
+* SecureBERT has demonstrated significantly higher performance in predicting masked words within the text when compared to existing models like RoBERTa (base and large), SciBERT, and SecBERT.
+* SecureBERT has also demonstrated promising performance in preserving general English language understanding (representation).
 
 ---
 
