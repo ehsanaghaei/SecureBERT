@@ -211,4 +211,12 @@ frame |	keystroke |	packet |	massive |	mass |	URL |	vector |	COM |	window |	Dist
 ```
 ***
 # References
-https://arxiv.org/pdf/2204.02685
+@inproceedings{aghaei2023securebert,
+  title={SecureBERT: A Domain-Specific Language Model for Cybersecurity},
+  author={Aghaei, Ehsan and Niu, Xi and Shadid, Waseem and Al-Shaer, Ehab},
+  booktitle={Security and Privacy in Communication Networks: 18th EAI International Conference, SecureComm 2022, Virtual Event, October 2022, Proceedings},
+  pages={39--56},
+  year={2023},
+  organization={Springer}
+}
+[https://link.springer.com/chapter/10.1007/978-3-031-25538-0_3]
