@@ -11,7 +11,7 @@
 ***See the presentation on [YouTube](https://www.youtube.com/watch?v=G8WzvThGG8c&t=8s)***
 
 
-## SecureBERT can be used as the base model for any downstream task including text classification, NER, Seq-to-Seq, QA, etc.
+## SecureBERT can be used as the base model for any downstream task including semantic analysis, text classification, NER, Seq-to-Seq, QA, etc.
 * SecureBERT has demonstrated significantly higher performance in predicting masked words within the text when compared to existing models like RoBERTa (base and large), SciBERT, and SecBERT.
 * SecureBERT has also demonstrated promising performance in preserving general English language understanding (representation).
 
